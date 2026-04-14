@@ -1,0 +1,24 @@
+services:
+  api:
+    build: .
+    container_name: chatops-api
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    depends_on:
+      - redis
+  worker:
+    build: .
+    container_name: chatops-worker
+    command: python -m celery -A app.worker worker --loglevel=info
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7
+    container_name: chatops-redis
+    ports:
+      - "6379:6379"

@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+openai
+slack-bolt
+requests
+python-dotenv
+celery
+redis

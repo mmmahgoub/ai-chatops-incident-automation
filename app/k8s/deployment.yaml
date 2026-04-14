@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: chatops-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: chatops
+  template:
+    metadata:
+      labels:
+        app: chatops
+    spec:
+      containers:
+        - name: chatops-api
+          image: your-dockerhub/chatops:latest
+          ports:
+            - containerPort: 8000
+          env:
+            - name: OPENAI_API_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: chatops-secrets
+                  key: openai-key

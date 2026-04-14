@@ -1,4 +1,5 @@
 # AI ChatOps Incident Automation
+
 🚀 Overview
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
@@ -58,6 +59,7 @@ Enable natural language interaction with infrastructure
         └──────────────────────┘
 
 🎯 Key Features
+
 💬 ChatOps Interface
 Slack / CLI-based bot for interacting with systems
 Supports natural language queries like:
@@ -72,12 +74,14 @@ Fetches relevant logs
 Identifies anomalies
 
 🧠 AI-Powered Log Analysis
+
 Uses LLMs to:
 Summarize large volumes of logs
 Detect patterns and anomalies
 Suggest possible root causes
 
 🔁 Automated Remediation
+
 Python scripts trigger predefined actions:
 Restart services
 Clear queues
@@ -85,12 +89,14 @@ Scale resources
 Optional human-in-the-loop approval
 
 📝 Incident Reporting
+
 Automatically generates:
 Incident summaries
 Postmortem drafts
 Timeline of events
 
 🛠️ Tech Stack
+
 Language: Python
 AI/LLM: OpenAI API (or similar LLM provider)
 Backend: FastAPI / Flask
@@ -100,6 +106,7 @@ Scripting: Bash + Python automation
 Deployment: Docker
 
 🏗️ Architecture (High-Level)
+
 [User / Slack]
        ↓
 [ChatOps Bot]
@@ -116,6 +123,7 @@ Deployment: Docker
 [Infrastructure / Services]
 
 📊 Impact
+
 ⏱️ Saved 15+ hours/week of manual operational work
 ⚡ Reduced Mean Time to Resolution (MTTR)
 🤖 Automated repetitive incident triage tasks

@@ -1,3 +1,9 @@
+from openai import OpenAI
+import os
+from app.utils.helpers import build_prompt, truncate_text
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
 def summarize_logs(logs: str, metrics: dict = None) -> str:
     try:
         logs = truncate_text(logs, 1000)

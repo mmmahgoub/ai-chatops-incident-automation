@@ -21,6 +21,9 @@ Automate repetitive operational tasks
 Enable natural language interaction with infrastructure
 
 
+![alt text](7a89a6c1-7473-4d3f-ae9e-f1930f8d91fb.png)
+
+
                     ┌──────────────────────┐
                     │      Slack User      │
                     └─────────┬────────────┘

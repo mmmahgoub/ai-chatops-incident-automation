@@ -1,6 +1,6 @@
 # AI ChatOps Incident Automation
 
-🚀 Overview
+ Overview
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
@@ -20,7 +20,7 @@ Provide root cause insights
 Automate repetitive operational tasks
 Enable natural language interaction with infrastructure
 
-![alt text](7a89a6c1-7473-4d3f-ae9e-f1930f8d91fb.png)
+
 
 
                     ┌──────────────────────┐

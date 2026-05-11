@@ -58,29 +58,29 @@ Enable natural language interaction with infrastructure
         │ (Auto-healing, etc.) │
         └──────────────────────┘
 
-🎯 Key Features
+Key Features
 
-💬 ChatOps Interface
+ChatOps Interface
 Slack / CLI-based bot for interacting with systems
 Supports natural language queries like:
 “Why is API latency high?”
 “Show recent critical errors”
 Returns AI-generated summaries and recommended actions
-⚡ Incident Detection & Triage
+Incident Detection & Triage
 Integrates with monitoring tools (e.g., Prometheus, Datadog)
 Automatically:
 Parses alerts
 Fetches relevant logs
 Identifies anomalies
 
-🧠 AI-Powered Log Analysis
+AI-Powered Log Analysis
 
 Uses LLMs to:
 Summarize large volumes of logs
 Detect patterns and anomalies
 Suggest possible root causes
 
-🔁 Automated Remediation
+Automated Remediation
 
 Python scripts trigger predefined actions:
 Restart services
@@ -88,14 +88,14 @@ Clear queues
 Scale resources
 Optional human-in-the-loop approval
 
-📝 Incident Reporting
+Incident Reporting
 
 Automatically generates:
 Incident summaries
 Postmortem drafts
 Timeline of events
 
-🛠️ Tech Stack
+Tech Stack
 
 Language: Python
 AI/LLM: OpenAI API (or similar LLM provider)
@@ -105,7 +105,7 @@ Monitoring: Prometheus / Grafana / Datadog
 Scripting: Bash + Python automation
 Deployment: Docker
 
-🏗️ Architecture (High-Level)
+Architecture (High-Level)
 
 [User / Slack]
        ↓
@@ -122,13 +122,13 @@ Deployment: Docker
        ↓
 [Infrastructure / Services]
 
-📊 Impact
+Impact
 
-⏱️ Saved 15+ hours/week of manual operational work
-⚡ Reduced Mean Time to Resolution (MTTR)
-🤖 Automated repetitive incident triage tasks
-🧠 Improved decision-making with AI-generated insights
-📸 Example Use Case
+Saved 15+ hours/week of manual operational work
+Reduced Mean Time to Resolution (MTTR)
+Automated repetitive incident triage tasks
+Improved decision-making with AI-generated insights
+Example Use Case
 
 Input (Slack):
 
